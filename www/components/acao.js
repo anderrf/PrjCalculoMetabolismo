@@ -19,19 +19,19 @@ $(document).on("click", "#btnCalculo", function(){
   var $altura = $("#altura").val();
   
   var $taxaAtividade;
-  if($("#taxaAtividade").val() == "Sedentário (pouco ou nenhum exercício)"){
+  if($("#taxaAtividade").val() == "sedentario"){
     $taxaAtividade = 1.2;
   }
-  else if($("#taxaAtividade").val() == "Levemente ativo (exercício leve 1 a 3 dias por semana)"){
+  else if($("#taxaAtividade").val() == "leve"){
     $taxaAtividade = 1.375;
   }
-  else if($("#taxaAtividade").val() == "Moderadamente ativo (exercício moderado faz esportes 3 a 5 dias por semana)"){
+  else if($("#taxaAtividade").val() == "moderado"){
     $taxaAtividade = 1.55;
   }
-  else if($("#taxaAtividade").val() == "Altamente ativo (exercício pesado de 5 a 6 dias por semana)"){
+  else if($("#taxaAtividade").val() == "alto"){
     $taxaAtividade = 1.725;
   }
-  else if($("#taxaAtividade").val() == "Extremamente ativo (exercício pesado diariamente e até 2 vezes por semana)"){
+  else if($("#taxaAtividade").val() == "extremo"){
     $taxaAtividade = 1.9;
   }
 
