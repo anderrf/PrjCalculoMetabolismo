@@ -36,7 +36,7 @@ h1{
 }
 
 label{
-  font-size: 20px;
+  font-size: 15px;
   font-family: Verdana;
 }
 
@@ -90,5 +90,19 @@ a.botao link{
 }
 
 a.botao hover{
+  text-decoration: none;
+}
+#btnMasc{
+  font-size: 20px;
+  height: 11px;
+  font-family: Verdana;
+  text-align: center;
+  text-decoration: none;
+}
+#btnFem{
+  font-size: 20px;
+  height: 11px;
+  font-family: Verdana;
+  text-align: center;
   text-decoration: none;
 }
