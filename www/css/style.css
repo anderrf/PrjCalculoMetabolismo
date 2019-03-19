@@ -7,3 +7,88 @@ h2{
   font-family: fantasy;
   color: blueviolet;
 }
+body{
+  background-color: palegreen;
+}
+
+.container{
+  width: 95%;
+  margin-bottom: 10px;
+}
+
+.title{
+  margin-top: 90px;
+}
+
+.lbl{
+  margin-top: 25px;
+}
+
+h1{
+  font-style: bolder;
+}
+
+.titulo{
+  font-size: 50px;
+  font-family: Verdana;
+  text-align: center;
+  margin-top: 50px;
+}
+
+label{
+  font-size: 20px;
+  font-family: Verdana;
+}
+
+input{
+  font-size: 20px;
+  font-family: Verdana;
+  height: 30px;
+}
+
+button{
+  height: 45px;
+  font-size: 30px;
+  font-family: Verdana;
+  text-align: center;
+  text-decoration: none;
+}
+
+.botao{
+  font-size: 40px;
+  height: 45px;
+  text-decoration: none;
+}
+
+#botaoCalculo{
+  font-size: 20px;
+  height: 55px;
+  font-family: Verdana;
+  text-align: center;
+  text-decoration: none;
+}
+
+#botaoInicio{
+  margin-top: 30px;
+  font-size: 90px;
+  height: 150px;
+  font-family: Verdana;
+  text-align: center;
+  text-decoration: none;
+}
+
+#botaoRetorno{
+  font-size: 20px;
+  height: 55px;
+  font-family: Verdana;
+  text-align: center;
+  text-decoration: none;
+}
+
+a.botao link{
+  text-decoration: none;
+}
+
+a.botao hover{
+  text-decoration: none;
+}
