@@ -63,8 +63,8 @@
          <div class="form-group">
           <label>Sexo:</label>
           <form action="">
-          <input type="radio" name="gender" value="male" id="btnMasc"> Masculino
-          <input type="radio" name="gender" value="female" id="btnFem"> Feminino
+          <input type="radio" name="gender" value="male" id="sexo"> Masculino
+          <input type="radio" name="gender" value="female" id="sexo"> Feminino
           </form>         
           </div>
          </div>
@@ -73,12 +73,12 @@
             <div class="col-xs-12">
              <div class="form-group">
               <label>Taxa de Atividade:</label>
-              <select id="taxaAtividade" class="form-control">
-              <option value="sedentario">Sedentário (pouco ou nenhum exercício)</option>
-              <option value="leve">Levemente ativo (exercício leve 1 a 3 dias por semana)</option>
-              <option value="moderado">Moderadamente ativo (exercício moderado faz esportes 3 a 5 dias por semana)</option>
-              <option value="alto">Altamente ativo (exercício pesado de 5 a 6 dias por semana)</option>
-              <option value="extremo">Extremamente ativo (exercício pesado diariamente e até 2 vezes por semana)</option>
+              <select id="taxaAtividade" class="form-control" >
+                <option value="1.2">Sedentário (pouco ou nenhum exercício)</option>
+                <option value="1.375">Levemente ativo (exercício leve 1 a 3 dias por semana)</option>
+                <option value="1.55">Moderadamente ativo (exercício moderado faz esportes 3 a 5 dias por semana)</option>
+                <option value="1.725">Altamente ativo (exercício pesado de 5 a 6 dias por semana)</option>
+                <option value="1.9">Extremamente ativo (exercício pesado diariamente e até 2 vezes por semana)</option>
               </select>
              </div>
             </div>
@@ -95,7 +95,7 @@
             <div class="col-xs-12">
              <div class="form-group">
              <label>Índice Metabolico Basal:</label>
-             <input type="number" class="form-control" name="alt" size="15" id="imb">
+             <input type="number" class="form-control" name="alt" size="15" id="imb" readonly="">
              </div>
             </div>
            </div>  

@@ -5,10 +5,10 @@ $(document).on("click", "#btnCalculo", function(){
   var nome = $("#nome").val();
   
   var sexo;
-  if($("#sexo").val("male")){
+  if(($("#sexo").val()) == "male"){
     sexo = true;
   }
-  else if($("#sexo").val("female")){
+  else if(($("#sexo").val()) == "female"){
     sexo = false;
   }
 
@@ -18,22 +18,7 @@ $(document).on("click", "#btnCalculo", function(){
 
   var altura = $("#altura").val();
   
-  var taxaAtividade;
-  if($("#taxaAtividade").val("sedentario")){
-    taxaAtividade = 1.2;
-  }
-  else if($("#taxaAtividade").val("leve")){
-    taxaAtividade = 1.375;
-  }
-  else if($("#taxaAtividade").val("moderado")){
-    taxaAtividade = 1.55;
-  }
-  else if($("#taxaAtividade").val("alto")){
-    taxaAtividade = 1.725;
-  }
-  else if($("#taxaAtividade").val("extremo")){
-    taxaAtividade = 1.9;
-  }
+  var taxaAtividade = parseFloat($("#taxaAtividade").val());
 
   var imb;
 
