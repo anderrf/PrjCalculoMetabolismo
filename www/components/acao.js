@@ -5,10 +5,10 @@ $(document).on("click", "#btnCalculo", function(){
   var $nome = $("#nome").val();
   
   var $sexo;
-  if(btnMasc.Checked){
+  if("#btnMasc".Checked){
     $sexo = true;
   }
-  else if(btnFem.Checked){
+  else if("#btnFem".Checked){
     $sexo = false;
   }
 
@@ -42,5 +42,5 @@ $(document).on("click", "#btnCalculo", function(){
   else if($sexo == false){
     $imb = $taxaAtividade * (655 + ((9.6 * $peso) + (1.8 * $altura) - (4.7 * $idade)));
   }
-
+  $("#imb").val() = $imb;
 });
