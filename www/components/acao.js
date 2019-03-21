@@ -4,13 +4,7 @@ $(document).on("click", "#btnCalculo", function(){
   
   var nome = $("#nome").val();
   
-  var sexo;
-  if(($("#sexo").val()) == "male"){
-    sexo = true;
-  }
-  else if(($("#sexo").val()) == "female"){
-    sexo = false;
-  }
+  var sexo = $("input[name='gender']:checked").val();
 
   var idade = $("#idade").val();
 
@@ -22,10 +16,10 @@ $(document).on("click", "#btnCalculo", function(){
 
   var imb;
 
-  if(sexo == true){
+  if(sexo == "male"){
     imb = taxaAtividade * (66 + ((13.7 * peso) + ( 5 * altura) - (6,8 * idade)));
   }
-  else if(sexo == false){
+  else if(sexo == "female"){
     imb = taxaAtividade * (655 + ( (9.6 * peso) + (1.8 * altura) - (4.7 * idade)));
   }
   $("#imb").val(imb);
