@@ -58,6 +58,11 @@ button{
   font-size: 40px;
   height: 45px;
   text-decoration: none;
+  text-align: center;
+}
+
+.cbtn{
+  text-align: center;
 }
 
 #botaoCalculo{
