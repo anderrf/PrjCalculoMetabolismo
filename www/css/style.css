@@ -54,6 +54,9 @@ button{
   text-decoration: none;
 }
 
+.fgb{
+  text-align: center;
+}
 .botao{
   font-size: 40px;
   height: 45px;
@@ -63,8 +66,6 @@ button{
 
 .cbtn{
   text-align: center;
-  margin-left: 50%;
-  margin-right: 50%;
 }
 
 #botaoCalculo{
@@ -77,8 +78,8 @@ button{
 
 #botaoInicio{
   margin-top: 30px;
-  margin-left: 50%;
-  margin-right: 50%;
+  margin-right:-50px;
+  margin-left:-50px;
   font-size: 90px;
   height: 150px;
   font-family: Verdana;
